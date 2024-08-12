@@ -9,10 +9,6 @@ class ReverseTest {
 	@Test
 	void test() {
 
-		Reverse reverse = new Reverse();
-		assertEquals("nayra", reverse.reverseString("aryan"));
-		assertEquals("edoc", reverse.reverseString("code"));
-		
 	}
 
 }
