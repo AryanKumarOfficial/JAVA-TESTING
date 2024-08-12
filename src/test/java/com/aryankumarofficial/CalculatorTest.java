@@ -8,7 +8,10 @@ public class CalculatorTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Calculator calculator = new Calculator();
+		int output =calculator.divide(10, 5);
+		int expectedResult = 2;
+		assertEquals(expectedResult,output);
 	}
 
 }
