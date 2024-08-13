@@ -8,8 +8,11 @@ class TestAssertTrue {
 
 	@Test
 	void test() {
-		String str  ="Junit";
-		assertTrue(str.equals("Junit"));
+//		String str  ="Junit";
+//		assertTrue(str.equals("Junit"));
+
+		String str = "Junit5";
+		assertFalse(str.length() < 5);
 	}
 
 }

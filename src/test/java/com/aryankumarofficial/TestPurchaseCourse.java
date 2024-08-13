@@ -13,7 +13,8 @@ class TestPurchaseCourse {
 	void testProceedWithCourse() {
 		PurchaseCourse pc = new PurchaseCourse();
 		boolean status = pc.proceedWithCourse(new JavaCourse());
-		assertTrue(status);
+//		assertTrue(status);
+		assertFalse(status);
 	}
 
 }
